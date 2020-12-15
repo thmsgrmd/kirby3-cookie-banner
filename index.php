@@ -24,8 +24,16 @@ Kirby::plugin('michnhokn/cookie-banner', [
             'michnhokn.cookie-banner.denyAll' => 'Reject All',
             'michnhokn.cookie-banner.acceptAll' => 'Accept All',
             'michnhokn.cookie-banner.save' => 'Save settings',
+        ],
+        'fr' => [
+            'michnhokn.cookie-banner.title' => 'Configuration des cookies',
+            'michnhokn.cookie-banner.text' => 'Nous utilisons des cookies pour vous fournir la meilleure expérience possible. Ils nous permettent aussi d\'analyser l\'interaction des visiteurs avec le site pour l\'améliorer continuellement. (link: privacy-policy text: Politique de confidentialité)',
+            'michnhokn.cookie-banner.essentialText' => 'Nécessaires',
+            'michnhokn.cookie-banner.denyAll' => 'Tout refuser',
+            'michnhokn.cookie-banner.acceptAll' => 'Tout accepter',
+            'michnhokn.cookie-banner.save' => 'Enregistrer les paramètres',
         ]
-    ],
+  ],
     'options' => [
         'features' => []
     ]
